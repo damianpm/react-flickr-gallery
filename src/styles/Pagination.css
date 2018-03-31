@@ -1,0 +1,35 @@
+.my-pagination {
+  height: 50px;
+  padding-left: 0;
+  margin: 20px 0;
+  text-align: center;
+  list-style: none;
+}
+
+.my-pagination li {
+  display: inline;
+}
+
+.my-pagination li button,
+.my-pagination li button:active {
+  background-color: White;
+  color: RoyalBlue;
+  border-radius: 8px;
+  outline:none;
+  border: 1px solid LavenderBlush;
+  -webkit-box-shadow: 0 1px 2px silver;
+  box-shadow: 0 1px 2px silver;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.my-pagination li button:disabled, .my-pagination li button[disabled] {
+  border: 1px solid LavenderBlush;
+  background-color: LightGray;
+  color: #666666;
+  cursor: not-allowed;
+}

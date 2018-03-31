@@ -1,0 +1,100 @@
+@import url('styles/Grid.css');
+@import url('styles/Pagination.css');
+
+.App {
+  text-align: center;
+  background-color: WhiteSmoke;
+}
+
+.image-card {
+  background-color: White;
+  border-radius: 5px;
+  width: 100%;
+  height: 300px;
+  padding: 10px 20px;
+  margin: 2% 0;
+  text-align: left;
+  border: 1px solid LavenderBlush;
+  -webkit-box-shadow: 0 1px 2px Silver;
+  box-shadow: 0 1px 2px Silver;
+}
+
+.clickable-image {
+  cursor: pointer;
+}
+
+.image-title {
+  font-family: 'Leckerli One', cursive;
+  font-size: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.modal-description-box {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.modal-description-box .image-title {
+  font-size: 1.4em;
+  color: HotPink;
+}
+
+.image-card .description {
+  font-family: 'Metrophobic';
+  font-size: 0.9em;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.image-card .image-container {
+  height: 180px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.image-card .image-container .clickable-image img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.modal-body img {
+  max-height: 100vh;
+  margin: -133px auto;
+  padding: 133px 0;
+}
+
+.custom-modal.modal-lg.modal-dialog {
+  position: relative;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-description-box {
+  margin-top: 20px;
+  font-family: 'Metrophobic';
+  font-size: 0.9em;
+}
+
+.modal-description {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.tags {
+  font-family: 'Metrophobic';
+  font-size: 0.9em;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
