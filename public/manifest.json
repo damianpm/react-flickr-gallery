@@ -1,6 +1,6 @@
 {
-  "short_name": "Trovit FE",
-  "name": "Trovit Frontend Test",
+  "short_name": "ReactFlickr Gallery",
+  "name": "React Flickr Gallery",
   "icons": [
     {
       "src": "favicon.ico",
